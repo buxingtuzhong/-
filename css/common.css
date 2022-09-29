@@ -1,0 +1,223 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 10000px;
+}
+
+input {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding-left: 9px;
+    width: 483px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.search {
+    height: 200px;
+    background-color: #076392;
+    padding: 27px 0 0 20px;
+    height: 103px;
+}
+
+.main {
+    height: 188px;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.box {
+    float: left;
+    width: 100px;
+    height: 137px;
+    /* background-color: pink; */
+    margin-left: 50px;
+    margin-top: 47px;
+}
+
+.box>.box_box1 {
+    width: 100px;
+    height: 100px;
+    background-color: pink
+}
+
+.box>.box_box2 {
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bar {
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.timer {
+    height: 112px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 38px 0 0 25px;
+    position: relative;
+}
+
+.timer_hr {
+    position: absolute;
+    bottom: 1px;
+    margin: 0 auto;
+    width: 400px;
+    height: 2px;
+    background-color: gray;
+}
+
+.time_time {
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    display: block;
+    font-size: 40px;
+    float: left;
+}
+
+.time_box {
+    position: absolute;
+    top: 50px;
+    left: 137px;
+    width: 37px;
+    height: 37px;
+    padding-left: 25px;
+    background-color: gray;
+    float: left;
+}
+
+.hr {
+    height: 3px;
+    width: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 1px 60px 0 60px;
+    background-color: black;
+}
+
+.libM,
+.schoolWork,
+.Office {
+    height: 190px;
+    /* background-color: pink; */
+}
+
+.lib,
+.SW,
+.off {
+    height: 180px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.lib>h2 {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.lib>table {
+    position: absolute;
+    left: 30px;
+    top: 70px;
+}
+
+tr>td {
+    width: 97px;
+    font-size: 18px;
+}
+
+.lib>.btn {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    background-color: #076392;
+    width: 120px;
+    height: 40px;
+}
+
+.lib>.lib_timer {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    color: #076392;
+    font-size: 16px;
+}
+
+.bar2,
+.bar3,
+.bar4 {
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.footer {
+    height: 120px;
+    padding: 0 70px;
+    position: relative;
+}
+
+.f_box1,
+.f_box2,
+.f_box3 {
+    width: 50px;
+    height: 77px;
+    float: left;
+}
+
+.f_box2,
+.f_box3 {
+    margin-left: 100px;
+}
+
+.work_1 {
+    background-color: pink;
+    height: 50px;
+}
+
+.work_2 {
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+}
+
+.f_bar {
+    position: absolute;
+    bottom: 1px;
+    left: 170px;
+    width: 185px;
+    height: 9px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.footer>.timer_hr {
+    position: absolute;
+    top: -6px;
+    margin: 0 auto;
+    width: 400px;
+    height: 2px;
+    background-color: gray;
+}
